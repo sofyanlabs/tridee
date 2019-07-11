@@ -51,11 +51,11 @@
 
 .service {
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background: url("../img/background/blue-bg.png") center/cover no-repeat;
 
     .column:not(:first-child) {
-        padding-top: 243px;
+        padding-top: 150px;
     }
 }
 

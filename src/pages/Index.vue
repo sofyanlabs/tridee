@@ -66,8 +66,8 @@
       <section class="section service">
         <div class="container small">
           <div class="columns">
-            <div class="column">
-              <g-image alt="Gambar 3" src="~/assets/img/component/home-03.png" />
+            <div class="column has-text-centered">
+              <g-image alt="Gambar Tridee" src="~/assets/img/component/maskot-tridee.png" />
             </div>
             <div class="column"> 
               <h2 class="title is-size-1 is-spaced has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
