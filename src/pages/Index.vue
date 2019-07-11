@@ -85,7 +85,7 @@
             </p>
 
             <div class="video-container">
-              <iframe width="1280" height="753" src="https://www.youtube.com/embed/B7ny9NTeC_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="1280" height="753" data-src="https://www.youtube.com/embed/B7ny9NTeC_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
 
