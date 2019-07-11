@@ -32,6 +32,18 @@
           <div class="navbar-end">
             <a v-if="$route.path === '/'" href="/#home" v-scroll-to="'#home'" class="navbar-item">Home</a>
             <g-link v-else to="/#home" class="navbar-item">Home</g-link>
+
+            <a v-if="$route.path === '/'" href="/#fitur" v-scroll-to="'#fitur'" class="navbar-item">Fitur</a>
+            <g-link v-else to="/#fitur" class="navbar-item">Fitur</g-link>
+
+            <a v-if="$route.path === '/'" href="/#keuntungan" v-scroll-to="'#keuntungan'" class="navbar-item">Keuntungan</a>
+            <g-link v-else to="/#keuntungan" class="navbar-item">Keuntungan</g-link>
+
+            <a v-if="$route.path === '/'" href="/#video" v-scroll-to="'#video'" class="navbar-item">Video</a>
+            <g-link v-else to="/#video" class="navbar-item">Video</g-link>
+
+            <a v-if="$route.path === '/'" href="/#testimonial" v-scroll-to="'#testimonial'" class="navbar-item">Testimonial</a>
+            <g-link v-else to="/#testimonial" class="navbar-item">Testimonial</g-link>
           </div>
         </div>
       </div>

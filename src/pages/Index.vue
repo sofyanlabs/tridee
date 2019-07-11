@@ -21,7 +21,7 @@
       </section>
     </div>
 
-    <div>
+    <div id="fitur">
       <section class="section">
         <div class="container small">
           <div class="columns is-vcentered">
@@ -51,7 +51,7 @@
       </section>
     </div>
 
-    <div>
+    <div id="keuntungan">
       <section class="section service">
         <div class="container small">
           <div class="columns">
@@ -68,7 +68,7 @@
       </section>
     </div>
 
-    <div>
+    <div id="video">
       <section class="section has-margin-top-70">
         <div class="container small">
           <div class="has-text-centered">
@@ -114,7 +114,7 @@
       </section>
     </div>
 
-    <div>
+    <div id="testimonial">
       <section class="section is-medium has-background-grey-lighter">
         <div class="container small">
           <div class="columns">
