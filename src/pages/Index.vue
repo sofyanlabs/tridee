@@ -15,7 +15,7 @@
                   Untuk Kamu yang Berjiwa Positif
                 </p>
 
-                <a href="#" class="button is-medium is-rounded is-primary has-margin-top-50">Daftar Sekarang</a>
+                <a href="#" class="button is-medium is-rounded is-success has-margin-top-50">Daftar Sekarang</a>
               </div>
             </div>
           </div>
@@ -36,7 +36,10 @@
             <div class="column">
               <h2 class="title is-size-1 is-spaced">Tridee Forum</h2>
               <hr>
-              <p class="subtitle has-text-grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil saepe repellat perspiciatis autem! Nam eaque enim exercitationem deleniti officiis maiores sapiente repudiandae, eius dolorem rerum dolores tempore tenetur, pariatur necessitatibus.</p>
+              <p class="subtitle has-text-grey">
+                Temukan bakat kamu disini, sharing ilmu kamu, untuk memberikan informasi lebih keteman teman kamu
+                dan tukarkan bintang dan koin kamu untuk dapatkan hadiah dari Tridee.
+              </p>
             </div>
           </div>
 
@@ -46,7 +49,10 @@
             <div class="column">
               <h2 class="title is-size-1 is-spaced">Tridee Kelas</h2>
               <hr>
-              <p class="subtitle has-text-grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil saepe repellat perspiciatis autem! Nam eaque enim exercitationem deleniti officiis maiores sapiente repudiandae, eius dolorem rerum dolores tempore tenetur, pariatur necessitatibus.</p>
+              <p class="subtitle has-text-grey">
+                Cari kelas sesuai bakat atau profesi kamu, belajar lebih dalam lagi dengan mentor mentor lainnya, dan sharing pengalaman kamu
+                belajar di forum, mulai dengan berbagi lebih baik.
+              </p>
             </div>
             <div class="column has-text-centered">
               <g-image alt="Camera Person" src="~/assets/img/component/camera-person.png" width="600"/>

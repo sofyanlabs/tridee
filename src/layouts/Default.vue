@@ -27,7 +27,7 @@
           class="navbar-menu"
           :class="{ 'is-active': showNav } "
         >
-          <div class="navbar-end">
+          <div class="navbar-end is-centers">
             <a v-if="$route.path === '/'" href="/#home" v-scroll-to="'#home'" class="navbar-item">Home</a>
             <g-link v-else to="/#home" class="navbar-item">Home</g-link>
 
@@ -42,6 +42,9 @@
 
             <a v-if="$route.path === '/'" href="/#testimonial" v-scroll-to="'#testimonial'" class="navbar-item">Testimonial</a>
             <g-link v-else to="/#testimonial" class="navbar-item">Testimonial</g-link>
+
+            
+            <a href="#" class="button is-primary is-rounded has-margin-left-10">Login / Register</a>
           </div>
         </div>
       </div>
