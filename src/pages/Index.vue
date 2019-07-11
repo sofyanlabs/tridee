@@ -6,7 +6,7 @@
         <div class="hero-body">
           <div class="container big">
             <div class="columns is-vcentered">
-              <div class="column">
+              <div class="column has-text-centered-mobile">
                 <h1 class="title is-size-1 is-spaced has-text-white"> 
                   <span class="has-text-weight-semibold">Tridee</span> 
                   <br>
@@ -17,11 +17,11 @@
 
                 <a href="#" class="button is-medium is-rounded is-primary has-margin-top-50">Daftar Sekarang</a>
               </div>
-              <div class="column">
-               <g-image alt="Owl Header" src="~/assets/img/component/GIF-OWL2.gif"/>
-              </div>
             </div>
           </div>
+        </div>
+        <div class="owl-header">
+          <g-image alt="Owl Header" src="~/assets/img/component/GIF-OWL2.gif"/>
         </div>
       </section>
     </div>

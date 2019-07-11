@@ -44,12 +44,11 @@
 
 .owl-header {
     position: absolute; 
-    left: 0; 
-    right: 0;
+    right: 15em;
     bottom: -6px; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 400px; /* Need a specific value to work */
+    width: 600px; /* Need a specific value to work */
 }
 
 .service {
@@ -114,6 +113,14 @@ hr.is-large {
 }
 
 
+@media screen and (max-width: 1440px) {
+    .owl-header {
+        width: 400px;
+        left: 35em;
+    }
+}
+
+
 @media screen and (max-width: 1023px) {
     .navbar{
         padding: 20px;
@@ -132,6 +139,10 @@ hr.is-large {
         position: absolute;
         z-index: 1000;
         top: 50px;
+    }
+
+    .owl-header {
+        display: none;
     }
 
     .service {
