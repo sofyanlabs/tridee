@@ -7,8 +7,8 @@
       aria-label="primary navigation"
     >
       <div class="container">
-        <div class="navbar-brand">
-          <g-image alt="Logo Tridee" src="~/assets/img/logo.png" width="250"/>
+        <div class="navbar-brand is-centers">
+          <g-image alt="Logo Tridee" src="~/assets/img/logo.png" width="120"/>
           <a
             role="button"
             class="navbar-burger burger is-transparent has-text-white"
