@@ -55,7 +55,7 @@
               </p>
             </div>
             <div class="column has-text-centered">
-              <g-image alt="Camera Person" src="~/assets/img/component/camera-person.png" width="600"/>
+              <g-image alt="Class Image" src="~/assets/img/component/class-image.png" width="600"/>
             </div>
           </div>
         </div>
