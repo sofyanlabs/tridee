@@ -17,6 +17,9 @@
               </div>
             </div>
           </div>
+          <div class="owl-header">
+            <g-image alt="Owl Header" src="~/assets/img/component/GIF-OWL2.gif"/>
+          </div>
         </div>
       </section>
     </div>

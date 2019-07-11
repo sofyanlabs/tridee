@@ -1,6 +1,6 @@
 .navbar {
-    padding-top: 42px;
-    padding-bottom: 44px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     position: fixed;
     top: 0;
     right: 0;
@@ -12,6 +12,8 @@
 
 
 .navbar.shrink {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.8);
     -webkit-animation-name: fadeInDown;
     -webkit-animation-duration: 0.8s;
@@ -38,6 +40,16 @@
     opacity: 1;
     visibility: inherit;
     z-index: 20;
+}
+
+.owl-header {
+    position: absolute; 
+    left: 0; 
+    right: 0;
+    bottom: -6px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px; /* Need a specific value to work */
 }
 
 .service {
