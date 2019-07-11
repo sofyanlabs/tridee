@@ -8,9 +8,7 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <div class="has-text-weight-bold is-size-4">
-            {{ $static.metaData.siteName }}.
-          </div>
+          <g-image alt="Logo Tridee" src="~/assets/img/logo.png" width="200"/>
           <a
             role="button"
             class="navbar-burger burger is-transparent has-text-white"
