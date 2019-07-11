@@ -5,20 +5,22 @@
       <section class="hero header is-fullheight">
         <div class="hero-body">
           <div class="container big">
-            <div class="columns is-centered">
-              <div class="column has-text-centered">
+            <div class="columns is-vcentered">
+              <div class="column">
                 <h1 class="title is-size-1 is-spaced has-text-white"> 
-                  <span class="has-text-weight-semibold">Tridee</span> Forum Belajar Online</h1>
+                  <span class="has-text-weight-semibold">Tridee</span> 
+                  <br>
+                Forum Belajar Online</h1>
                 <p class="subtitle has-text-white is-size-4">
                   Untuk Kamu yang Berjiwa Positif
                 </p>
 
                 <a href="#" class="button is-medium is-rounded is-primary has-margin-top-50">Daftar Sekarang</a>
               </div>
+              <div class="column">
+               <g-image alt="Owl Header" src="~/assets/img/component/GIF-OWL2.gif"/>
+              </div>
             </div>
-          </div>
-          <div class="owl-header">
-            <g-image alt="Owl Header" src="~/assets/img/component/GIF-OWL2.gif"/>
           </div>
         </div>
       </section>
