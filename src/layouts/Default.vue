@@ -8,7 +8,7 @@
     >
       <div class="container">
         <div class="navbar-brand">
-          <g-image alt="Logo Tridee" src="~/assets/img/logo.png" width="200"/>
+          <g-image alt="Logo Tridee" src="~/assets/img/logo.png" width="100"/>
           <a
             role="button"
             class="navbar-burger burger is-transparent has-text-white"
