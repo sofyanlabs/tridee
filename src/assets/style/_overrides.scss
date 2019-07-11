@@ -48,7 +48,7 @@
     bottom: -6px; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 600px; /* Need a specific value to work */
+    width: 35%; /* Need a specific value to work */
 }
 
 .service {
@@ -111,15 +111,6 @@ hr.is-large {
 .subtitle {
     line-height: 1.5;
 }
-
-
-@media screen and (max-width: 1440px) {
-    .owl-header {
-        width: 300px;
-        left: 35em;
-    }
-}
-
 
 @media screen and (max-width: 1023px) {
     .navbar{
