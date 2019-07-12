@@ -4,7 +4,7 @@ import '~/assets/style/index.scss';
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
-import VueCarousel from 'vue-carousel';
+// import VueCarousel from 'vue-carousel';
 
 export default function (Vue, { router, head, isClient }) {
   head.link.push({
@@ -20,5 +20,5 @@ export default function (Vue, { router, head, isClient }) {
     easing: "ease",
   })
 
-  Vue.use(VueCarousel);
+  // Vue.use(VueCarousel);
 }
