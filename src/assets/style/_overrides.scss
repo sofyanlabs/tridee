@@ -200,4 +200,12 @@ hr.is-large {
     .container.small {
         padding: 0 1em 0 1em;
     }
+
+    .order-1 {
+        order: 2; 
+    }
+
+    .order-2 {
+        order: 1;
+    }
 }

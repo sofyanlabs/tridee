@@ -9,7 +9,7 @@ import Buefy from 'buefy'
 
 export default function (Vue, { router, head, isClient }) {
   head.script.push({
-    src: 'https://use.fontawesome.com/releases/v5.3.1/js/all.js',
+    src: 'https://kit.fontawesome.com/059d5adc49.js',
     defer: true
   })
 

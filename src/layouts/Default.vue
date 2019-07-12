@@ -57,17 +57,27 @@
 
     <footer>
       <div class="container small">
-        <div class="columns has-text-centered-mobile">
+        <div class="columns has-text-centered-mobile is-vcentered">
           <div class="column">
             <div class="has-text-weight-bold is-size-4">
               {{ $static.metaData.siteName }}.
             </div>
           </div>
-          <div class="column has-text-centered">
+          <div class="column">
             <span>© Tridee {{ new Date().getFullYear() }}. All rights reserved. </span>
           </div>
           <div class="column">
             Karya Anak Indonesia
+          </div>
+          <div class="column">
+            <span>
+              <a href="https://www.instagram.com/tridee.id/" class="has-margin-right-20">
+                <g-image alt="Instagram Logo" src="~/assets/img/icon/instagram.png" width="32"/>
+              </a>
+              <a href="https://www.youtube.com/channel/UCg4xHxunh6CCyJOt_I6Z_Vg">
+                <g-image alt="Youtube Logo" src="~/assets/img/icon/youtube.png" width="32"/>
+              </a>
+            </span>
           </div>
         </div>
       </div>
