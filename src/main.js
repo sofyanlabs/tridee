@@ -4,9 +4,14 @@ import '~/assets/style/index.scss';
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
-// import VueCarousel from 'vue-carousel';
+import VueAgile from 'vue-agile'
 
 export default function (Vue, { router, head, isClient }) {
+  head.script.push({
+    src: 'https://use.fontawesome.com/releases/v5.3.1/js/all.js',
+    defer: true
+  })
+
   head.link.push({
     src: 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap',
     rel: 'stylesheet',
@@ -20,5 +25,5 @@ export default function (Vue, { router, head, isClient }) {
     easing: "ease",
   })
 
-  // Vue.use(VueCarousel);
+  Vue.use(VueAgile)
 }

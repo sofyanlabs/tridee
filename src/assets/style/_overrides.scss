@@ -42,17 +42,6 @@
     z-index: 20;
 }
 
-.laptop {
-    background-repeat: no-repeat;
-    background-image: url("../img/component/laptop-mockup.png");
-    background-position: center;
-    width: 100%;
-    height: 550px;
-    opacity: 1;
-    visibility: inherit;
-    z-index: -1;
-}
-
 .owl-header img {
     position: absolute; 
     right: 15em;
@@ -78,6 +67,52 @@ footer {
 .container.small {
     padding: 0 5em 0 5em;
 }
+
+// Agile
+
+.laptop {
+    position: absolute;
+    margin-left: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 99;
+}
+
+.agile img {
+    width: 39%;
+    margin-top: 10px;
+}
+
+.agile__dot {
+    margin: 80px 5px 0px 5px;
+}
+
+.agile__dot button {
+    background-color: $primary;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.3s;
+    width: 10px;
+}
+
+.agile__dot--current button, .agile__dot:hover button {
+    background-color: darken($primary, 30%);
+}
+
+.agile__actions {
+    justify-content: center !important;
+}
+
 
 hr {
     width: 100px;
@@ -152,6 +187,18 @@ hr.is-large {
 
     .owl-header {
         display: none;
+    }
+
+    .laptop {
+        left: 0;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .agile img {
+        width: 78%;
     }
 
     .service {

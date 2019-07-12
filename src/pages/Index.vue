@@ -27,22 +27,21 @@
     </div>
 
     <div id="fitur">
-      <section class="section laptop">
-        <div class="container video">
-          <!-- <carousel :per-page="1" :navigationEnabled="true">
-            <slide>
-              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
-            </slide>
-            <slide>
-              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
-            </slide>
-            <slide>
-              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
-            </slide>
-            <slide>
-              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
-            </slide>
-          </carousel> -->
+      <section class="section">
+        <div class="container has-margin-top-40">
+          <div class="laptop is-centered">
+            <g-image alt="Laptop" src="~/assets/img/component/laptop-mockup.png" />
+          </div>
+          <div class="has-text-centered">
+            <agile :fade="true" :navButtons="false" >
+              <div class="slide">
+                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-1.png"/>
+              </div>
+              <div class="slide">
+                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-2.png" />
+              </div>
+            </agile>
+          </div>
         </div>
       </section>
       <section class="section">
