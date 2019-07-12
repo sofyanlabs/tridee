@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: 'Tridee',
+  siteDescription: 'Ruang Belajar Online 3D Visual & Engineering',
   plugins: []
 }

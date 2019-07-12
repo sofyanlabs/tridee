@@ -43,8 +43,9 @@
             <a v-if="$route.path === '/'" href="/#testimonial" v-scroll-to="'#testimonial'" class="navbar-item">Testimonial</a>
             <g-link v-else to="/#testimonial" class="navbar-item">Testimonial</g-link>
 
-            
-            <a href="#" class="button is-primary is-rounded has-margin-left-10">Login / Register</a>
+            <div class="navbar-item">
+              <a href="#" class="button is-primary is-rounded">Login / Register</a>
+            </div>
           </div>
         </div>
       </div>
