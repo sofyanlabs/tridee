@@ -36,7 +36,7 @@
             <g-image alt="Laptop" src="~/assets/img/component/laptop-mockup.png" />
           </div>
           <div class="has-text-centered">
-            <agile :fade="true" :navButtons="false" :autoplay="true" :autoplaySpeed="1000">
+            <agile :fade="true" :navButtons="false" :autoplay="true" :autoplaySpeed="1500">
               <div class="slide">
                 <g-image alt="Belajar Virtual" src="~/assets/img/component/belajar-virtual.png"/>
               </div>
