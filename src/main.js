@@ -8,11 +8,6 @@ import VueAgile from 'vue-agile'
 import Buefy from 'buefy'
 
 export default function (Vue, { router, head, isClient }) {
-  head.script.push({
-    src: 'https://kit.fontawesome.com/059d5adc49.js',
-    defer: true
-  })
-
   head.link.push({
     src: 'https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap',
     rel: 'stylesheet',
