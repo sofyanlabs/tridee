@@ -171,7 +171,7 @@
         <div class="container small">
           <div class="columns">
             <div class="column is-5">
-              <h2 class="title is-spaced is-size-1">7k+ happy clients</h2>
+              <h2 class="title is-spaced is-size-1">7k+ Member Bergabung</h2>
               <p class="subtitle has-text-grey">
                 Forum Edukasi berbasis Sosial media Positif pertama yang ada di ASIA
               </p>
