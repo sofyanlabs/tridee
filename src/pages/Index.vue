@@ -27,6 +27,24 @@
     </div>
 
     <div id="fitur">
+      <section class="section laptop">
+        <div class="container video">
+          <!-- <carousel :per-page="1" :navigationEnabled="true">
+            <slide>
+              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
+            </slide>
+            <slide>
+              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
+            </slide>
+            <slide>
+              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
+            </slide>
+            <slide>
+              <g-image alt="Gambar Laptop 1" src="~/assets/img/component/gambar-1.png" width="500"/>
+            </slide>
+          </carousel> -->
+        </div>
+      </section>
       <section class="section">
         <div class="container small">
           <div class="columns is-vcentered">
@@ -70,9 +88,12 @@
               <g-image alt="Gambar Tridee" src="~/assets/img/component/maskot-tridee.png" />
             </div>
             <div class="column"> 
-              <h2 class="title is-size-1 is-spaced has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+              <h2 class="title is-size-1 is-size-3-mobile is-spaced has-text-white">Forum Edukasi Pertama di Asia yang Menggunakan Virtual Reality</h2>
               <hr>
-              <p class="subtitle has-text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil saepe repellat perspiciatis autem! Nam eaque enim exercitationem deleniti officiis maiores sapiente repudiandae, eius dolorem rerum dolores tempore tenetur, pariatur necessitatibus.</p>
+              <p class="subtitle has-text-white">Dapatkan Experience yang sangat berbeda dari kelas lainnya, belajar dengan menggunakan VR 360
+membuat sensasi belajar anda semakin berbeda dari yang lain dan membuat anda semakin mudah mahir!
+Dan bergabung dengan teman teman lainnya di forum, buatlah banyak karya anda dan Posting!
+semakin banyak karya semakin banyak bintang dan tukarkan hadiah spesial!</p>
             </div>
           </div>
         </div>
@@ -83,11 +104,11 @@
       <section class="section has-margin-top-70">
         <div class="container small">
           <div class="has-text-centered">
-            <h2 class="title is-size-1 is-spaced">
+            <h2 class="title is-size-1 is-size-4-mobile is-spaced">
               <span class="has-text-weight-bold">Tridee</span> - Belajar Modern Bersama Tridee
             </h2>
             <p class="subtitle has-text-grey has-margin-bottom-70">
-              Belajar bersama dengan mentor terbaik
+              Semua akan semakin lebih mudah!
             </p>
 
             <div class="video-container">
@@ -95,29 +116,32 @@
             </div>
           </div>
 
-          <div class="columns has-margin-top-30">
+          <div class="columns has-text-centered has-margin-top-30">
             <div class="column">
-              <h2 class="is-size-5">
-                Fitur 1
+              <g-image alt="Virtual Reality" src="~/assets/img/icon/vr-glasses.png"/>
+              <h2 class="has-text-weight-bold is-size-5 has-margin-top-20">
+                Virtual Reality
               </h2>
               <p class="is-size-6 has-text-grey">
-                Deskripsi Fitur 1
+                Media Belajar Menggunakan Virtual Reality, Semakin Mudah anda untuk paham.
               </p>
             </div>
             <div class="column">
-              <h2 class="is-size-5">
-                Fitur 2
+              <g-image alt="Bintang" src="~/assets/img/icon/star.png"/>
+              <h2 class="has-text-weight-bold is-size-5 has-margin-top-20">
+                Forum Para Bintang
               </h2>
               <p class="is-size-6 has-text-grey">
-                Deskripsi Fitur 2
+                Bergabung di Forum dan pamerkan karya anda! Dapatkan banyak bintang!
               </p>
             </div>
             <div class="column">
-              <h2 class="is-size-5">
-                Fitur 3
+              <g-image alt="Coin" src="~/assets/img/icon/coin.png"/>
+              <h2 class="has-text-weight-bold is-size-5 has-margin-top-20">
+                Dapatkan Koin
               </h2>
               <p class="is-size-6 has-text-grey">
-                Deskripsi Fitur 3
+                Isi Koin Anda, menangkan banyak saembara, dan banyak komponen Gratis &amp; Premium
               </p>
             </div>
           </div>
@@ -157,7 +181,7 @@
           <div class="level">
             <div class="level-left">
               <div class="level-item">
-                <h2 class="title has-text-white">Tingkatan Skill Visual Kamu Bersama Tridee</h2>
+                <h2 class="title has-text-white has-text-centered-mobile">Tingkatan Skill Visual Kamu Bersama Tridee</h2>
               </div>
             </div>
             <div class="level-right">

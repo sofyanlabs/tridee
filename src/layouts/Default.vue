@@ -55,7 +55,7 @@
 
     <footer>
       <div class="container small">
-        <div class="columns">
+        <div class="columns has-text-centered-mobile">
           <div class="column">
             <div class="has-text-weight-bold is-size-4">
               {{ $static.metaData.siteName }}.
