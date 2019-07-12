@@ -5,6 +5,7 @@ import '~/assets/style/index.scss';
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueAgile from 'vue-agile'
+import Buefy from 'buefy'
 
 export default function (Vue, { router, head, isClient }) {
   head.script.push({
@@ -26,4 +27,5 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   Vue.use(VueAgile)
+  Vue.use(Buefy)
 }

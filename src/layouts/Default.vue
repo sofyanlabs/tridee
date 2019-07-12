@@ -44,7 +44,9 @@
             <g-link v-else to="/#testimonial" class="navbar-item">Testimonial</g-link>
 
             <div class="navbar-item">
-              <a href="#" class="button is-primary is-rounded">Login / Register</a>
+              <button class="button is-primary is-rounded" @click="alert">
+                  Login / Register
+              </button>
             </div>
           </div>
         </div>
@@ -79,6 +81,11 @@ export default {
   data: () => ({
     showNav: false,
   }),
+  methods: {
+    alert() {
+        this.$dialog.alert('Bentar yach, lagi di renovasi nich :*')
+    },
+  },
   mounted() {
     this.$nextTick(function(){
       window.addEventListener("scroll", function(){

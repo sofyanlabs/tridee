@@ -33,9 +33,12 @@
             <g-image alt="Laptop" src="~/assets/img/component/laptop-mockup.png" />
           </div>
           <div class="has-text-centered">
-            <agile :fade="true" :navButtons="false" >
+            <agile :fade="true" :navButtons="false" :autoplay="true" :autoplaySpeed="1000">
               <div class="slide">
                 <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-1.png"/>
+              </div>
+              <div class="slide">
+                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-2.png" />
               </div>
               <div class="slide">
                 <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-2.png" />
@@ -86,13 +89,25 @@
             <div class="column has-text-centered">
               <g-image alt="Gambar Tridee" src="~/assets/img/component/maskot-tridee.png" />
             </div>
-            <div class="column"> 
+            <div class="column has-margin-top-100"> 
               <h2 class="title is-size-1 is-size-3-mobile is-spaced has-text-white">Forum Edukasi Pertama di Asia yang Menggunakan Virtual Reality</h2>
               <hr>
               <p class="subtitle has-text-white">Dapatkan Experience yang sangat berbeda dari kelas lainnya, belajar dengan menggunakan VR 360
-membuat sensasi belajar anda semakin berbeda dari yang lain dan membuat anda semakin mudah mahir!
-Dan bergabung dengan teman teman lainnya di forum, buatlah banyak karya anda dan Posting!
-semakin banyak karya semakin banyak bintang dan tukarkan hadiah spesial!</p>
+              membuat sensasi belajar anda semakin berbeda dari yang lain dan membuat anda semakin mudah mahir!
+              Dan bergabung dengan teman teman lainnya di forum, buatlah banyak karya anda dan Posting!
+              semakin banyak karya semakin banyak bintang dan tukarkan hadiah spesial!</p>
+            </div>
+          </div>
+          <h1 class="title has-text-centered is-size-4 has-text-white has-margin-top-50 has-margin-bottom-50">Partner Kami</h1>
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-3">
+              <g-image alt="Arsitara" src="~/assets/img/component/arsitara.png" width="100"/>
+            </div>
+            <div class="column is-3">
+              <g-image alt="Arsitek" src="~/assets/img/component/arsitek.png" width="100"/>
+            </div>
+            <div class="column is-3">
+              <g-image alt="Shinta VR" src="~/assets/img/component/shinta.png" width="150"/>
             </div>
           </div>
         </div>
@@ -155,16 +170,38 @@ semakin banyak karya semakin banyak bintang dan tukarkan hadiah spesial!</p>
             <div class="column is-5">
               <h2 class="title is-spaced is-size-1">7k+ happy clients</h2>
               <p class="subtitle has-text-grey">
-                Social proof buzz network effects non-disclosure sosi agreement sales alpha creative holy grail.
+                Forum Edukasi berbasis Sosial media Positif pertama yang ada di ASIA
               </p>
               <hr class="is-large">
-              <p class="is-size-5">
-                Social proof buzz network effects non-disclosure sosi agreement sales alpha creative holy grail.
-                <br>
-                <span class="has-text-weight-bold">
-                  - Ahmad Sofyan
-                </span>
-              </p>
+              <agile :fade="true" :navButtons="false" :dots="false" :autoplay="true" :autoplaySpeed="2000">
+                <div class="slide">
+                  <p class="is-size-5">
+                    Saya dapat banyak ilmu baru di Tridee, karena mentornya yang sangat professional dalam mengajar sehingga mudah di pahami.
+                    <br>
+                    <span class="has-text-weight-bold">
+                      - Rizal (Ciledug)
+                    </span>
+                  </p>
+                </div>
+                <div class="slide">
+                  <p class="is-size-5">
+                    Ini gila, karena harga yang sangat murah tetapi kualitas yang didapatkan super duper keren.
+                    <br>
+                    <span class="has-text-weight-bold">
+                      - Fahmi (Medan)
+                    </span>
+                  </p>
+                </div>
+                <div class="slide">
+                  <p class="is-size-5">
+                    Materi mudah di pahami dan teman teman di forum sangat positif.
+                    <br>
+                    <span class="has-text-weight-bold">
+                      - Maya (Bandung)
+                    </span>
+                  </p>
+                </div>
+              </agile>
             </div>
             <div class="column has-text-centered">
               <g-image alt="Clients" src="~/assets/img/component/logo-social.png"/>
