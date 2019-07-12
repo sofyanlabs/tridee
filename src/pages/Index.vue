@@ -30,7 +30,8 @@
 
     <div id="fitur">
       <section class="section">
-        <div class="container has-margin-top-40">
+        <div class="container has-margin-top-10">
+          <h1 class="title has-text-centered has-text-weight-bold has-margin-bottom-50">Temukan Banyak Hal Baru Disini</h1>
           <div class="laptop is-centered">
             <g-image alt="Laptop" src="~/assets/img/component/laptop-mockup.png" />
           </div>
