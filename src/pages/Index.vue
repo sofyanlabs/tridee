@@ -15,7 +15,9 @@
                   Untuk Kamu yang Berjiwa Positif
                 </p>
 
-                <a href="#" class="button is-medium is-rounded is-success has-margin-top-50">Daftar Sekarang</a>
+                <button class="button is-medium is-rounded is-success has-margin-top-50" @click="alert">
+                  Daftar Sekarang
+                </button>
               </div>
             </div>
           </div>
@@ -35,13 +37,13 @@
           <div class="has-text-centered">
             <agile :fade="true" :navButtons="false" :autoplay="true" :autoplaySpeed="1000">
               <div class="slide">
-                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-1.png"/>
+                <g-image alt="Belajar Virtual" src="~/assets/img/component/belajar-virtual.png"/>
               </div>
               <div class="slide">
-                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-2.png" />
+                <g-image alt="Mentor Professional" src="~/assets/img/component/mentor-professional.png" />
               </div>
               <div class="slide">
-                <g-image alt="Gambar Slider 1" src="~/assets/img/component/gambar-2.png" />
+                <g-image alt="Banyak Bintang" src="~/assets/img/component/banyak-bintang.png" />
               </div>
             </agile>
           </div>
@@ -222,7 +224,9 @@
             </div>
             <div class="level-right">
               <div class="level-item">
-                <a href="#" class="button is-large is-rounded">Daftar Sekarang</a>
+                <button class="button is-large is-rounded" @click="alert">
+                  Daftar Sekarang
+                </button>
               </div>
             </div>
           </div>
@@ -236,6 +240,11 @@
 export default {
   metaInfo: {
     title: 'Ruang Belajar Online 3D Visual & Engineering'
+  },
+  methods: {
+    alert() {
+        this.$dialog.alert('Bentar yach, lagi di renovasi nich :*')
+    },
   },
   mounted() {
     function init() {
