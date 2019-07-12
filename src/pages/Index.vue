@@ -68,8 +68,8 @@
 
           <hr class="is-large">
 
-          <div class="columns is-vcentered">
-            <div class="column">
+          <div class="columns is-vcentered l-flex">
+            <div class="column l-flex-2">
               <h2 class="title is-size-1 is-spaced">Tridee Kelas</h2>
               <hr>
               <p class="subtitle has-text-grey">
@@ -77,7 +77,7 @@
                 belajar di forum, mulai dengan berbagi lebih baik.
               </p>
             </div>
-            <div class="column has-text-centered">
+            <div class="column has-text-centered l-flex-1">
               <g-image alt="Class Image" src="~/assets/img/component/class-image.png" width="600"/>
             </div>
           </div>

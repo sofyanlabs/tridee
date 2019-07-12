@@ -201,11 +201,20 @@ hr.is-large {
         padding: 0 1em 0 1em;
     }
 
-    .order-1 {
-        order: 2; 
+    .l-flex {
+        display: flex;
+        flex-flow: column;
     }
-
-    .order-2 {
+    
+    .l-flex-1 { 
         order: 1;
+    }
+    
+    .l-flex-2 {
+        order: 2;
+    }
+    
+    .l-flex-3 {
+        order: 3;
     }
 }
