@@ -67,7 +67,7 @@
             <span>© Tridee {{ new Date().getFullYear() }}. All rights reserved. </span>
           </div>
           <div class="column">
-            Social Media Account
+            Karya Anak Indonesia
           </div>
         </div>
       </div>
